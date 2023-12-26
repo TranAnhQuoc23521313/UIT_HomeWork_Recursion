@@ -1,0 +1,35 @@
+#include <iostream>
+
+using namespace std;
+
+void Nhap(int[], int&);
+int KtKhong(int[], int);
+
+int main()
+{
+	int n;
+	int a[1000];
+	Nhap(a, n);
+	cout << "Ket qua: " << KtKhong(a, n);
+	return 0;
+}
+
+void Nhap(int a[], int& n)
+{
+	cout << "Nhap N: ";
+	cin >> n;
+	for (int i = 0; i < n; i++)
+	{
+		cout << "Nhap A{" << i << "]: ";
+		cin >> a[i];
+	}
+}
+
+int KtKhong(int a[], int n)
+{
+	if (n == 0)
+		return 0;
+	if (a[n - 1] == 0)
+		return 1;
+	return KtKhong(a, n - 1);
+}

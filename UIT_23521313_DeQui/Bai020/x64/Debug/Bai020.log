@@ -1,1 +1,3 @@
-﻿
+﻿  Bai020.cpp
+C:\Users\quoc9\OneDrive\Documents\GitHub\UIT_HomeWork_Recursion\UIT_23521313_DeQui\Bai020\Bai020.cpp(24,15): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Bai020.vcxproj -> C:\Users\quoc9\OneDrive\Documents\GitHub\UIT_HomeWork_Recursion\UIT_23521313_DeQui\x64\Debug\Bai020.exe
